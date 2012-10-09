@@ -1,0 +1,5 @@
+D:\Websites\CrossFront\CrossFront\bin\CrossFront.dll
+D:\Websites\CrossFront\CrossFront\bin\CrossFront.pdb
+D:\Websites\CrossFront\CrossFront\obj\Release\CrossFront.csprojResolveAssemblyReference.cache
+D:\Websites\CrossFront\CrossFront\obj\Release\CrossFront.dll
+D:\Websites\CrossFront\CrossFront\obj\Release\CrossFront.pdb

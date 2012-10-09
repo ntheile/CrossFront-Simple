@@ -1,0 +1,4 @@
+D:\Websites\TypeScriptTest\TypeScriptTest\bin\CorssFront.dll
+D:\Websites\TypeScriptTest\TypeScriptTest\bin\CorssFront.pdb
+D:\Websites\TypeScriptTest\TypeScriptTest\obj\Release\CorssFront.dll
+D:\Websites\TypeScriptTest\TypeScriptTest\obj\Release\CorssFront.pdb

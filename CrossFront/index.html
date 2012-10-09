@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+    <title>TypeScript Backbone Require jQuery Mobile Router - HTML Boilerplate App </title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <script src="js/appstart/config.js"></script>
+</head>
+<body>
+    
+
+    <div id="preLoad">
+        <h1>loading... </h1>
+    </div>
+
+
+    <div id="loaded" style="display: none">
+        
+        
+
+        <div id="index" data-role="page">
+
+            <div data-role="header" data-tap-toggle="false" data-position="fixed">
+                <h1>Index Page</h1>
+            </div>
+
+            <div data-role="content">
+                <h2>Content for the index page goes here.</h2>
+                <ul data-role="listview">
+                    <li><a href="#index">Goto Index Page</a></li>
+                    <li><a href="#one">Goto Page One</a></li>
+                    <li><a href="#two">Goto Page Two</a></li>
+                </ul>
+            </div>
+
+            <div data-role="footer" data-tap-toggle="false" data-position="fixed">
+                <h4>Index Footer</h4>
+            </div>
+
+        </div>
+
+
+        <div id="one" data-role="page" data-add-back-btn="true">
+
+            <div data-role="header" data-tap-toggle="false" data-position="fixed">
+                <h1>Page One</h1>
+            </div>
+
+            <div data-role="content">
+                <h2 style="color:red">Page One content goes here</h2>
+                <ul data-role="listview">
+                    <li><a href="#index">Goto Index Page</a></li>
+                    <li><a href="#one">Goto Page One</a></li>
+                    <li><a href="#two">Goto Page Two</a></li>
+                </ul>
+            </div>
+
+            <div data-role="footer" data-tap-toggle="false" data-position="fixed">
+                <h4>Page One Footer</h4>
+            </div>
+
+        </div>
+
+
+        <div id="two" data-role="page" data-add-back-btn="true">
+
+            <div data-role="header" data-tap-toggle="false" data-position="fixed">
+                <h1>Page Two</h1>
+            </div>
+
+            <div data-role="content">
+                <h2  style="color:blue">Page Two Content goes here</h2>
+                <ul data-role="listview">
+                    <li><a href="#index">Goto Index Page</a></li>
+                    <li><a href="#one">Goto Page One</a></li>
+                    <li><a href="#two">Goto Page Two</a></li>
+                </ul>
+            </div>
+
+            <div data-role="footer" data-tap-toggle="false" data-position="fixed">
+                <h4>Page Two Footer</h4>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <script data-main="js/main" src="js/libs/require.js?v=1"></script>
+</body>
+</html>
